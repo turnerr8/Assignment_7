@@ -10,9 +10,60 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="main container-fluid">
+        <h1 class="text-center pt-2">Stairs to Nowhere</h1>
+
+        <p>As you walk up the first set on the <span class="italic">Stairs to Nowhere</span> note how many steps you climb up.</p>
+
+        <!-- quiz -->
+        <div class="container quiz">
+            <div class="row options-row">
+                <div class="col d-flex justify-content-center  col-item">
+                    <a href="#" class="quiz-option wrong">23</a>
+                </div>
+                <div class="col d-flex justify-content-center col-item">
+                    <a href="#info" class="quiz-option right">5</a>
+                </div>
+            </div>
+            <div class="row options-row">
+                <div class="col d-flex justify-content-center col-item">
+                    <a href="#" class="quiz-option wrong">17</a>
+                </div>
+                <div class="col d-flex justify-content-center col-item">
+                    <a href="#" class="quiz-option wrong">20</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Once quiz is correct go to this block of information -->
+        <div class="container-fluid" id="info-1" style="display: none;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti veritatis cupiditate praesentium soluta ea laboriosam repudiandae quas quae reprehenderit tempora, inventore ex a esse numquam consequatur aliquam atque perspiciatis.</p>
+            <img class="dusk-stairs" src="./images/stairs-dusk.jpeg" alt="Stairs to Nowhere at dusk">
+        </div>
+        <div class="container-fluid" id="material">
+            <div class="container quiz">
+                <div class="row options-row">
+                    <div class="col d-flex justify-content-center  col-item">
+                        <a href="#" class="quiz-option wrong">Wood</a>
+                    </div>
+                    <div class="col d-flex justify-content-center col-item">
+                        <a href="#info" class="quiz-option right">Cement</a>
+                    </div>
+                </div>
+                <div class="row options-row">
+                    <div class="col d-flex justify-content-center col-item">
+                        <a href="#" class="quiz-option wrong">Clay</a>
+                    </div>
+                    <div class="col d-flex justify-content-center col-item">
+                        <a href="#" class="quiz-option wrong">Glass</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
