@@ -1,3 +1,11 @@
+:root{
+    --forest-green: #679186;
+    --light-green: #bbd4ce;
+    --slate-blue: #264e70;
+    --tan: #fdebd3;
+    --peach: #f9b4ab;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +20,7 @@ body{
 
 h1{
     margin: .5em auto .9em auto;
+    color: var(--slate-blue);
 }
 
 .italic{
@@ -32,15 +41,23 @@ h1{
     margin: .25em auto;
 }
 
-.quiz-option {
+.quiz-option, .quiz-option-1 {
     font-size: 3em;
+    color: var(--slate-blue);
     width: 100%;
-    border: 2px solid black;
+    background-color: rgba(38, 76, 110, .5);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.479);
     border-radius: .25em;
     text-align: center;
 }
 
 .quiz-option:hover{
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+
+.quiz-option-1:hover{
     color: white;
     background-color: grey;
     text-decoration: none;
@@ -56,5 +73,18 @@ h1{
     width: 100%;
 }
 
+.quote {
+    text-align: left;
+    background-color:#bbd4ce;
+    margin: .5em;
+    padding: .5em;
+}
+
+blockquote{
+    margin-bottom: .25em;
+}
+figcaption{
+    font-style: italic;
+}
 
 
