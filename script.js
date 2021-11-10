@@ -23,6 +23,7 @@ $(document).ready(function () {
     $('.right-1').click(function(){
         $(this).css("background-color", "green");
         $('#material').show();
+        $('#shape-quiz').show();
         $('.wrong-1').css("background-color", "");
         $('.wrong-1').css("color", "");
 
@@ -34,6 +35,24 @@ $(document).ready(function () {
     })
 
     $('.quiz-option-1').click(function(){
+        $(this).css("color", "white");
+    })
+
+    //QUIZ FOR SHAPE
+     $('.right-2').click(function(){
+        $(this).css("background-color", "green");
+        $('#shape').show();
+        $('.wrong-2').css("background-color", "");
+        $('.wrong-2').css("color", "");
+
+    });
+
+    //wrong answer is chosen
+    $('.wrong-2').click(function(){
+        $(this).css("background-color", "red");
+    })
+
+    $('.quiz-option-2').click(function(){
         $(this).css("color", "white");
     })
     

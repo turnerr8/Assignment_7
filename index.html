@@ -16,19 +16,20 @@
     <div class="main container-fluid">
         <h1 class="text-center pt-2">Stairs to Nowhere</h1>
 
-        <p><span class="italic">Stairs to Nowhere</span> officially titled <span class="italic">Statium Piece</span> is a architecural piece created
+        <p><span class="italic">Stairs to Nowhere</span> officially titled <span class="italic">Stadium Piece</span> is a architecural piece created
         by Bruce Nauman finished in 1999.</p>
 
-        <p>As you walk up the first set on the <span class="italic">Stairs to Nowhere</span> note how many steps you climb up.</p>
+        <p>As you walk up the first set of steps headed away from Red Square on the <span class="italic">Stairs to Nowhere</span> note how many steps you climb up.</p>
 
+        <p>How many steps did you count?</p>
         <!-- quiz -->
         <div class="container quiz">
             <div class="row options-row">
                 <div class="col d-flex justify-content-center  col-item">
-                    <a href="#" class="quiz-option wrong">23</a>
+                    <a href="#" class="quiz-option wrong">5</a>
                 </div>
                 <div class="col d-flex justify-content-center col-item">
-                    <a href="#info" class="quiz-option right">5</a>
+                    <a href="#info" class="quiz-option right">10</a>
                 </div>
             </div>
             <div class="row options-row">
@@ -43,8 +44,12 @@
 
         <!-- Once quiz is correct go to this block of information -->
         <div class="container-fluid" id="info-1" style="display: none;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti veritatis cupiditate praesentium soluta ea laboriosam repudiandae quas quae reprehenderit tempora, inventore ex a esse numquam consequatur aliquam atque perspiciatis.</p>
+            <p>Nauman was inspired by the idea of entry steps which were used for walking, sitting, reading, talking, and served all purposes.  
+                He wanted to create something that pulled from the surrounding STEM buildings and marry art and STEM. 
+            </p>
             <img class="dusk-stairs" src="./images/stairs-dusk.jpeg" alt="Stairs to Nowhere at dusk">
+            <p>Observe the materials used on <span class="italic">Stadium Piece</span>, is it mixed medium? One medium?<br>What is the majority of the sculpture made from?</p>
+
         </div>
 
         <!--Quiz 2 on materials-->
@@ -72,11 +77,42 @@
         <!--Information about materials-->
         <div id="material" class="container-fluid" style="display: none;">
             <p>Many of Nauman's works are in black/white or shades of grey, including this piece which is comprised of concrete and left to it's original single grey shade.</p>
-            <div class="quote">
-                <blockquote>"I fell down those stairs."</blockquote>
-                <figcaption>-My roomate</figcaption>
+            <img class="concrete" src="./images/stairs-material.jpeg" alt="Stadium Piece's concrete">
+            
+            <p>As you go down the other side of the stairs and walk to the side of it, what shape does it take?</p>
+        </div>
+        
+        <!--SHAPE QUIZ-->
+        <div class="container-fluid" id="shape-quiz" style="display: none;">
+            <div class="container quiz">
+                <div class="row options-row">
+                    <div class="col d-flex justify-content-center  col-item">
+                        <a href="#shape-quiz" class="quiz-option-2 wrong-2">U</a>
+                    </div>
+                    <div class="col d-flex justify-content-center col-item">
+                        <a href="#shape" class="quiz-option-2 right-2">M</a>
+                    </div>
+                </div>
+                <div class="row options-row">
+                    <div class="col d-flex justify-content-center col-item">
+                        <a href="#shape-quiz" class="quiz-option-2 wrong-2">W</a>
+                    </div>
+                    <div class="col d-flex justify-content-center col-item">
+                        <a href="#shape-quiz" class="quiz-option-2 wrong-2">A</a>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <div class="container-fluid" id="shape" style="display: none;">
+            <p>This sculpture takes the shape of a lopsided M</p>
+            
+            <div class="quote">
+                <blockquote>"I fell down those stairs."</blockquote>
+                <figcaption>-My roommate</figcaption>
+            </div>
+        </div>
+
     </div>
     <script src="./script.js"></script>
 </body>
